@@ -134,7 +134,7 @@ hr {
 }
 
 .menulink {
-	color: rgb(240, 219, 176);
+	color: rgb(223, 220, 185);
 }
 
 .panel {
@@ -148,6 +148,9 @@ hr {
 	text-decoration: none;
 }
 
-.selected {
+
+.selected, .selected td, .selected th {
     border-radius: 4px;
 }
+
+
