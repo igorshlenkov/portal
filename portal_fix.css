@@ -79,7 +79,17 @@ hr {
 	display: flex;
 	padding: 40px 0 0 0;
 	background-color: rgb(88, 108, 92);
-}  
+	transition: .1s;
+}
+
+@media (min-width: 2400px) {
+	.bm-overlay .bm-menu {
+	left: 300px;
+}
+	.bm-menu {
+		left: 0;
+	}
+}
 
 .btn-group {
 	display: flex;
