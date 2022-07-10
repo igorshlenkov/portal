@@ -163,7 +163,7 @@ hr {
 }
 
 .menulink {
-	color: #333;
+	color: rgb(95, 95, 95, 0.9);
 }
 
 .panel {
@@ -173,10 +173,18 @@ hr {
     border-radius: 8px;
 }
 
+.panel:hover{
+	background-color: rgb(95, 87, 78, 0.05);
+}
+
 .panelheader {
-	color: rgb(95, 95, 95);
+	color: rgb(95, 95, 95, 0.7);
 	text-decoration: none;
 	text-shadow: 0.1px 0.1px;
+}
+
+.panelheader:hover {
+	color: rgb(95, 95, 95, 1);
 }
 
 .select2-container--bootstrap {
