@@ -83,6 +83,9 @@ hr {
 }
 
 @media (min-width: 2400px) {
+	.bm-cross-button {
+		display: none;
+	}
 	.bm-overlay .bm-menu {
 	left: 300px;
 }
