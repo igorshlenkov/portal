@@ -1,7 +1,14 @@
 body {
+	max-width: 1440px;
+	margin: 0 auto;
 	min-height: 100%;
 	margin-top: 40px;
 	font-family: 'Arial';
+}
+
+.col-xs-6 {
+	max-width: 100%;
+	margin: 0 auto;
 }
 
 hr {
@@ -52,11 +59,6 @@ hr {
 	left: 0;
 }
 
-
-.has-float-label #citylist_label, label {
-	display: none;
-}
-
 .pagefilter_done {
 	display: flex;
 	justify-content: center;
@@ -65,10 +67,6 @@ hr {
 }
 
 .centered {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 	margin: 0 0 20px 0;
 }
 
@@ -82,12 +80,13 @@ hr {
 	transition: .1s;
 }
 
-@media (min-width: 2400px) {
+@media (min-width: 1920px) {
 	.bm-cross-button {
 		display: none;
 	}
 	.bm-overlay .bm-menu {
-	left: 300px;
+		position: relative;
+		left: 300px;
 }
 	.bm-menu {
 		left: 0;
@@ -124,7 +123,7 @@ hr {
     background-color: #fff;
     background-image: none;
     border: 1px solid #ccc;
-    border-radius: 10px;
+    border-radius: 4px;
 }
 
 .innerbbtn {
@@ -162,9 +161,7 @@ hr {
 	text-decoration: none;
 }
 
-
-.selected, .selected td, .selected th {
-    border-radius: 4px;
+.select2-container--bootstrap {
+	margin-right: 20px;
+	border-radius: 10px;
 }
-
-
