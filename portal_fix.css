@@ -1,7 +1,7 @@
 body {
 	max-width: 1440px;
 	margin: 0 auto;
-	height: 100%;
+	min-height: 100%;
 	margin-top: 40px;
 	font-family: 'Arial';
 }
@@ -15,7 +15,6 @@ hr {
 	display: none;
 }
 
-
 .notifycontainer {
     position: fixed;
     top: 0;
@@ -26,7 +25,7 @@ hr {
     align-items: center;
     justify-content: center;
     background-color: #fff;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .globalnotifier {
