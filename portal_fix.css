@@ -202,7 +202,6 @@ hr {
     margin-bottom: 20px;
     background-color: rgb(95, 87, 78, 0.03);
     border: 1px solid transparent;
-    border-radius: 8px;
 }
 
 .panel:hover{
@@ -221,7 +220,6 @@ hr {
 
 .select2-container--bootstrap {
 	margin-right: 20px;
-	border-radius: 24px;
 }
 
 #vuepartwh_invops {
