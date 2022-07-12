@@ -239,6 +239,10 @@ hr {
 		display: none;
 	}
 	
+	.pagefilter_done td:nth-child(1) {
+		display: none;
+	}
+	
 	.requestrow {
 		position: relative;
 		border: 1px solid #ddd;
@@ -350,6 +354,7 @@ hr {
 	
 	.notifycontainer {
 		min-height: 40px;
+		border-bottom: 0.5px solid #ddd;
 	}
 	
 	#notifyarea a:nth-child(2) {
@@ -365,8 +370,8 @@ hr {
 	}
 	
 	.cross-style {
-    		top: 14px;
-    		right: 24px;
+    	top: 14px;
+    	right: 24px;
 	}
 	
 }
