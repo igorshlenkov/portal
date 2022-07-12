@@ -300,6 +300,11 @@ hr {
 		border-bottom: 0.5px dashed rgb(31, 31, 31, 0.1);
 	}
 	
+	.requestrow td:nth-child(9){
+		
+	}
+	
+	
 	.requestrow td:nth-child(10) table {
 		display: flex;
 		justify-content: center;
@@ -374,4 +379,11 @@ hr {
     	right: 24px;
 	}
 	
+	#tdmain h2 {
+		font-size: 18px;
+	}
+	
+	.tdeven {
+		font-size: 14px;
+	}
 }
