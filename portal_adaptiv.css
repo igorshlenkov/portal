@@ -1,7 +1,7 @@
 body {
 	max-width: 1440px;
-	margin: 0 auto;
-	margin-top: 40px;
+	margin: 100px auto;
+	
 	font-family: 'Arial';
 	font-size: 16px;
 }
@@ -90,8 +90,8 @@ hr {
 }
 
 .cross-style {
-    top: 4px;
-    right: 24px;
+    top: 10px;
+    right: 14px;
 }
 
 .bm-cross {
@@ -227,6 +227,12 @@ hr {
 		flex-wrap: wrap;
 	}
 	
+	tbody td {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	
 	#vuemainpage {
 		margin: 0 10px;
 	}
@@ -277,17 +283,21 @@ hr {
 	.requestrow td:nth-child(4) {
 		position: absolute;
 		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
 		justify-content: end;
 		top: 0;
 		color: transparent;
 	}
 	
 	.requestrow td:nth-child(5) {
-		margin: 54px 0 2px 0;
+		margin: 64px 0 0 0;
 	}
 	
 	.requestrow td:nth-child(6) {
-		margin: 0 0 10px 0;
+		flex-direction: row;
+		justify-content: center;
+		margin: 10px 0 10px 0;
 	}
 	
 	.requestrow td:nth-child(9) {
@@ -386,5 +396,154 @@ hr {
 	.tdeven {
 		font-size: 14px;
 		margin: 10px 0 0 0;
+	}
+	
+	#req_eqtable thead {
+		display: none;
+	}
+	
+	#editForm {
+		display: flex;
+		width: 100%;
+	}
+	
+	#editForm tr{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	
+	#editForm tr:nth-child(1) {
+		
+	}
+	
+	#editForm tr:nth-child(2) {
+		display: none;
+	}
+	
+	#editForm tr:nth-child(3) {
+		display: none;
+	}
+	#editForm tr:nth-child(4) {
+		display: none;
+	}
+	
+	#editForm tr:nth-child(6) {
+		display: none;
+	}
+	
+	#editForm tr:nth-child(8) .pull-right{
+		display: none;
+	}
+	
+	#editForm tr:nth-child(9) {
+	
+	}
+	
+	.tablerrow {
+		flex-wrap: wrap;
+		font-size: 14px;
+		text-align: center;
+	}
+	
+	#editForm tr:nth-child(16) {
+		display: none;
+	}
+	
+	#editForm tr:nth-child(17) {
+		display: none;
+	}
+	
+	#editForm tr:nth-child(18) {
+		display: none;
+	}
+	
+	#editForm tr:nth-child(27) tbody:first-child {
+		display: none;
+	}
+	
+	#editForm tr:nth-child(27) {
+		flex-direction: column;
+	}
+	
+	#req_points tr{
+		flex-direction: row;
+		font-size: 14px;
+	}
+	
+	.form-inline {
+		flex-direction: row;
+		justify-content: center
+	}
+	
+	.form-inline input {
+		max-width: 40px;
+		margin: 1px 4px;
+	}
+	
+	#selfpay {
+		margin: 10px 0 0 0;
+	}
+	
+	.requestHint {
+		display: none;
+	}
+	
+	.requestStatus {
+		font-size: 24px;
+		flex-direction: row;
+		flex-wrap: nowrap;
+	}
+	
+	td.requestStatus {
+		justify-content: center;
+	}
+	
+	input#status13, input#status7, input#status6 {
+		margin: 0 10px 0 0;
+	}
+	
+	button#btnSubmit.requestButton.btn.btn-lg.btn-success {
+		font-size: 14px	
+	}
+	
+	button.requestButton.btn.btn-danger.btn-lg {
+		display: none;
+	}
+	
+	.table > tbody > tr > td:nth-child(2) {
+		position: fixed;
+		top: 0;
+		left: 0;
+		flex-direction: row;
+		justify-content: space-around;
+		font-size: 16px;
+		background-color: #fff;
+		border-bottom: 1px solid #ddd;
+		
+	}
+	#tdmain h3 {
+		font-size: 16px;
+	}
+	
+	input#account.form-control {
+		z-index: 0;
+	}
+	
+	.titlerow {
+		display: none;
+	}
+	
+	.tablerrow, .tablerrow td {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+	}
+	
+	div.ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.ui-draggable {
+		width: 100%;
 	}
 }
