@@ -1,6 +1,7 @@
 body {
 	max-width: 1440px;
-	margin: 40px auto;
+	width: 100%;
+	margin: 50px auto;
 	font-family: 'Arial';
 	font-size: 16px;
 }
@@ -29,6 +30,10 @@ hr {
 
 .globalnotifier {
 	display: none;
+}
+
+.centered {
+	margin-bottom: 10px;
 }
 
 
@@ -62,10 +67,6 @@ hr {
 	justify-content: center;
 	align-items: center;
 	padding: 0;
-}
-
-.centered {
-	margin: 0 0 10px 0;
 }
 
 .bm-menu {
@@ -244,7 +245,9 @@ hr {
 	}
 	
 	#vuemainpage {
+		width: 100%;
 		margin: 0;
+		padding: 0;
 	}
 	
 	br {
@@ -409,20 +412,20 @@ hr {
 		margin: 10px 0 0 0;
 	}
 	
+	.requestrow3 {
+		display: none;
+	}
+	
 	.table > tbody > tr {
 		display: flex;
 		flex-direction: column-reverse;
-	}
-	
-	.requestrow3 {
-		display: none;
 	}
 	
 	#editForm tbody tr {
 		display: flex;
 		flex-wrap: wrap;
 		width: 100%;
-		min-height: 100%;
+		height: 100%;
 		text-align: center;
 		justify-content: center;
 	}
@@ -493,7 +496,7 @@ hr {
 		height: 100%;
 	}
 	
-	h3.centered {
+	h3 {
 		font-size: 18px;
 	}
 	
