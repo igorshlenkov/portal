@@ -201,6 +201,16 @@ hr {
 	margin-top: 10px;
 }
 
+.ui-dialog .ui-dialog-titlebar-close {
+    position: absolute;
+    right: 14px;
+    top: 14px;
+    width: 32px;
+    height: 32px;
+    padding: 6px;
+    font-size: 18px;
+}
+
 @media (min-width: 1920px) {
 	.bm-cross-button {
 		display: none;
@@ -448,15 +458,16 @@ hr {
 	.fullwidth *{
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: column;
+		flex-direction: row;
 	}
 	
 	.tablerbody {
-		display: flex;
+		display: block;
+		flex-direction: row;
 	}
 	
-	.tablerrow td {
-		display: inline;
+	tr.tablerrow {
+		display: block;
 	}
 	
 	#status6,
@@ -482,17 +493,16 @@ hr {
 		height: 100%;
 	}
 	
-	.ui-dialog .ui-dialog-titlebar-close {
-    	position: absolute;
-    	right: .3em;
-    	top: 50%;
-    	width: 32px;
-    	height: 32px;
-    	margin: -10px 0 0 0;
-    	padding: 1px;
-	}
-	
 	h3.centered {
 		font-size: 18px;
+	}
+	
+	#btnAddressComments {
+		display: flex;
+		margin: 0 auto;
+	}
+	
+	.pull-right {
+		display: none;
 	}
 }
