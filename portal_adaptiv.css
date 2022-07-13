@@ -518,4 +518,8 @@ hr {
 	.pull-right {
 		display: none;
 	}
+	
+	.networkstatus {
+		font-weight: 700;
+	}
 }
