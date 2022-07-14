@@ -553,4 +553,8 @@ hr {
 		background-image:inherit;
 		background-color: rgb(95, 87, 78, 0.01);
 	}
+	
+	.ui-button .ui-corner-all .ui-widget .ui-button-icon-only .ui-dialog-titlebar-close {
+		z-index: 2000;
+	}
 }
