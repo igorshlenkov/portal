@@ -314,6 +314,7 @@ hr {
 		justify-content: end;
 		flex-wrap: nowrap;
 		color: transparent;
+		z-index: 1;
 	}
 	
 	.viewRQLink {
@@ -333,6 +334,10 @@ hr {
 		flex-direction: row;
 		justify-content: center;
 		gap: 10px;
+	}
+
+	.requestrow td:nth-child(8) {
+		
 	}
 	
 	.requestrow td:nth-child(9) {
@@ -437,7 +442,7 @@ hr {
 		height: 100px;
 	}
 	
-	tbody tr, td {
+	tbody tr > td {
 		width: 100%;
 	}
 	
@@ -490,6 +495,10 @@ hr {
 		font-size: 14px;
 	}
 	
+	.requestStatusDisabled {
+		font-size: 14px;
+	}
+	
 	#status6,
 	#status7,
 	#status13 {
@@ -535,8 +544,13 @@ hr {
 	.fullwidt.input-group {
 		display: none;
 	}
-    
+	
 	.input-group-addon.bold{
 		display: none;
+	}
+	
+	.panel-heading {
+		background-image:inherit;
+		background-color: rgb(95, 87, 78, 0.01);
 	}
 }
