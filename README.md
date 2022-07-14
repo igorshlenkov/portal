@@ -1,2 +1,2 @@
-установить kiwi browser
-
+- установить kiwi browser
+- в дополнения установить javaScript and css ![20220715_003822](https://user-images.githubusercontent.com/88972126/179091386-aa7022b1-a612-40b3-a347-446113ae8141.jpg)
