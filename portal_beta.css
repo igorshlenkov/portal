@@ -1,0 +1,542 @@
+body {
+	max-width: 1440px;
+	width: 100%;
+	margin: 50px auto;
+	font-family: 'Arial';
+	font-size: 16px;
+}
+
+#vuemainpage {
+	padding: 0;
+	margin: 0;
+}
+
+hr {
+	display: none;
+}
+
+.notifycontainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    font-size: 18px;
+}
+
+.msgnotifier {
+	background-color: transparent;
+}
+
+.boardnotifier {
+	background-color: transparent;
+}
+
+.mainnotifier {
+	background-color: transparent;
+}
+
+.globalnotifier {
+	display: none;
+}
+
+.centered {
+	margin-bottom: 10px;
+}
+
+
+.notifyicon::before {
+	position: relative;
+	margin-right: 4px;
+	top: 1px;
+	left: 0px;
+}
+
+.fa-envelope,
+.fa-bullhorn::before {
+	position: relative;
+	margin-right: 4px;
+	top: 2px;
+	left: 0px;
+}
+
+
+.bm-overlay {
+    background: #fff;
+}
+
+
+.bm-overlay .bm-menu {
+	left: 0;
+}
+
+.pagefilter_done {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+}
+
+.bm-menu {
+	width: 300px;
+	left: -100%;
+	display: flex;
+	padding: 40px 0 0 0;
+	background-color: rgb(223, 223, 223, 0.9);
+	transition: .2s;
+}
+
+.bm-overlay .bm-burger-button {
+	display: none;
+}
+
+.bm-cross-button {
+    height: 24px;
+    width: 24px;
+    background: rgb(95, 95, 95, 0.8);
+    border-radius: 50%;
+}
+
+.cross-style {
+    top: 10px;
+    right: 14px;
+}
+
+.bm-cross {
+	top: 4px;
+	left: 10px;
+    background: #bdc3c7;
+    border-radius: 50%;
+}
+
+.bm-menu .btn-group {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 28px;
+	margin-bottom: 60px;
+}
+
+.bm-item-list {
+	color: #333;
+	margin: 0 6%;
+}
+
+.bm-item-list .input-group {
+	display: flex;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.input-group .input-group-btn .btn {
+	display: none;
+}
+
+.form-control {
+    display: flex;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-group .form-control {
+	border-radius: 12px;
+}
+
+.innerbbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: top;
+}
+
+.btn .badge {
+    position: relative;
+    top: -4px;
+    color: #fff;
+}
+
+.menuitem {
+	text-align: center;
+}
+
+.bm-burger-button .innerbbtn {
+	font-size: 16px;
+	border-radius: 50%;
+}
+
+.menulink {
+	color: rgb(95, 95, 95, 0.9);
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: rgb(95, 87, 78, 0.03);
+    border: 1px solid transparent;
+}
+
+.panel:hover{
+	background-color: rgb(95, 87, 78, 0.05);
+}
+
+.panelheader {
+	color: rgb(95, 95, 95, 0.6);
+	text-decoration: none;
+	text-shadow: 0.1px 0.1px;
+}
+
+.panelheader:hover {
+	color: rgb(95, 95, 95, 1);
+}
+
+.select2-container--bootstrap {
+	margin-right: 20px;
+}
+
+#vuepartwh_invops {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pull-right {
+	margin-top: 10px;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+    position: absolute;
+    right: 14px;
+    top: 14px;
+    width: 32px;
+    height: 32px;
+    padding: 6px;
+    font-size: 18px;
+}
+
+@media (min-width: 1920px) {
+	.bm-cross-button {
+		display: none;
+	}
+	.bm-burger-button {
+		display: none;
+	}
+	
+	.bm-overlay .bm-menu {
+		left: 300px;
+	}
+	.bm-menu {
+		left: 0;
+	}
+	
+}
+
+@media (max-width: 425px) {
+	
+	.table-condensed2 {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	
+	#vuemainpage {
+		padding: 0;
+		margin: 0;
+	}
+	
+	br {
+		display: none;
+	}
+	
+	.requestrow .small {
+		display: none;
+	}
+	
+	.pagefilter_done td:nth-child(1) {
+		display: none;
+	}
+	
+	.requestrow {
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		border: 1px solid #ddd;
+		border-radius: 8px;
+	}
+	
+	.requestrow2 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 14px;
+	}
+	
+	.requestrow2 td:not(:first-child){
+		display: none;
+	}
+	
+	.requestrow3 {
+		display: none;
+	}
+	
+	.requestrow th:nth-child(1) {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+	
+	.requestrow th:nth-child(2) {
+		position: absolute;
+		display: flex;
+		top: 0;
+		left: 0;
+	}
+	
+	.requestrow th:nth-child(3) {
+		display: none;
+	}
+	
+	.requestrow td:nth-child(4){
+		display: flex;
+		flex-direction: row;
+		justify-content: end;
+		flex-wrap: nowrap;
+		color: transparent;
+	}
+	
+	.viewRQLink {
+		display: none;
+	}
+	
+	.requestrow td:nth-child(5) {
+		margin: 24px 0 0 0;
+	}
+	
+	.requestrow td:nth-child(6) {
+		margin: 0 0 10px 0;
+	}
+	
+	.td_nocontext {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		gap: 10px;
+	}
+	
+	.requestrow td:nth-child(9) {
+		position: absolute;
+		top: 20px;
+		font-size: 14px;
+	}
+	
+	
+	.requestrow td:nth-child(10) {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+	
+	.requestrow td:nth-child(10) > table > tbody tr{
+		display: inline-block;
+		background-color: rgb(53, 181, 255, 0.3);
+		padding: 1px 4px;
+		border-radius: 14px;
+	}
+	
+	.networkstatus {
+		font-weight: 700;
+		position: absolute;
+		top: 0;
+	}
+	
+	.requestrow td:nth-child(12) {
+		position: absolute;
+		top: 0;
+		z-index: -999;
+		height: 100%;
+		border-radius: 8px;
+		box-shadow: inset 0 -7px 20px -10px rgba(0, 0, 0, .6);
+		color: transparent;
+	}
+	
+	.tdeven .btn-group{
+		display: none;
+	}
+	
+	.table-bordered {
+		border: 0px;
+	}
+	
+	.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    	border: 0px;
+	}
+	
+	.td_nocontext {
+		background: transparent;
+	}
+	
+	.notifycontainer {
+		min-height: 40px;
+		border-bottom: 0.5px solid #ddd;
+		box-shadow: 0 2px 14px 3px rgba(0, 0, 0, .2);
+	}
+	
+	#notifyarea a:nth-child(4) {
+		display: none;
+	}
+	
+	.bm-burger-button {
+		display: none;
+	}
+	
+	.bm-menu {
+		width: 100%;
+	}
+	
+	.cross-style {
+    	top: 14px;
+    	right: 24px;
+	}
+	
+	#tdmain h2 {
+		font-size: 18px;
+	}
+	
+	.tdeven {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 14px;
+		margin: 10px 0 0 0;
+	}
+	
+	#editForm tbody tr {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		justify-content: center;
+	}
+	
+	.table > tbody > tr > td:nth-child(2) table {
+		height: 100px;
+	}
+	
+	tbody tr, td {
+		width: 100%;
+	}
+	
+	.table > tbody > tr:nth-child(3) tbody tr {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	
+	.form-inline {
+		display: flex;
+	}
+	
+	#selfpay {
+		margin: 10px 10px;
+	}
+	
+	#btnSubmit {
+		margin-top: 30px;
+		font-size: 14px;
+	}
+	
+	.btn-danger {
+		display: none;
+	}
+	
+	textarea {
+		min-height: 60px;
+	}
+	
+	.fullwidth *{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
+	
+	.tablerbody {
+		display: block;
+		flex-direction: row;
+	}
+	
+	tr.tablerrow {
+		display: flex;
+		font-size: 14px;
+		text-align: left;
+	}
+	
+	.requestStatus {
+		font-size: 14px;
+	}
+	
+	#status6,
+	#status7,
+	#status13 {
+		margin: 0 20px;
+		height: 14px;
+		width: 14px;
+		align-self: center;
+	}
+	
+	.requestHint {
+		display: none;
+	}
+	
+	.ui-dialog {
+		width: 100%;
+	}
+	
+	h3 {
+		font-size: 18px;
+	}
+	
+	#btnAddressComments {
+		display: flex;
+		margin: 0 auto;
+	}
+	
+	.pull-right {
+		display: none;
+	}
+	
+	.info {
+		display: none;
+	}
+	
+	.tablerstickyfilter {
+		display: none;
+	}
+	
+	tfoot {
+		display: none;
+	}
+	
+	.fullwidt.input-group {
+		display: none;
+	}
+    
+	.input-group-addon.bold{
+		display: none;
+	}
+}
