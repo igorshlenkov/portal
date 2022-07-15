@@ -567,4 +567,8 @@ hr {
 		background-color: rgb(95, 87, 78, 0.01);
 	}
 	
+	.btn {
+		padding: 2px 5px;
+		font-size: 16px;
+	}
 }
