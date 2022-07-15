@@ -379,6 +379,15 @@ hr {
 	}
 	
 	.tdeven .btn-group{
+		display: flex;
+		justify-content: end;
+	}
+	
+	.btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+    	border-radius: 4px;
+	}
+	
+	.glyphicon-print {
 		display: none;
 	}
 	
@@ -559,4 +568,3 @@ hr {
 	}
 	
 }
-
